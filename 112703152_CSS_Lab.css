@@ -1,0 +1,52 @@
+/* 112703152_CSS_Lab.css */
+
+
+.heading {
+  font-family: "Brush Script Std", cursive;
+}
+
+/* Give <ul> a class "navbar" */
+.navbar {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  width: 10em;
+}
+
+/* Give <body> certain attributes */
+body {
+  color: grey;
+  background-color: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+}
+
+/* Give the heading element a font-family value */
+h1 {
+  font-family: Verdana, sans-serif;
+}
+
+/* Make <ul> have certain attributes */
+ul {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  width: 15em;
+}
+
+@media all {
+  /* Styles for all media types */
+  .heading {
+    font-size: 34px;
+  }
+}
+
+@media print {
+  /* Styles for print media type */
+  body{
+    background-color: lightgoldenrodyellow;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+}
